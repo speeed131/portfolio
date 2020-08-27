@@ -9,5 +9,3 @@
         </nav>
     </div>
 </template>
-
-
