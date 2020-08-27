@@ -1,5 +1,5 @@
 <template>
     <div>
-        kkk
+        aaafwafwa
     </div>
 </template>
