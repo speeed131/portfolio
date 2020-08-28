@@ -7,6 +7,8 @@
 
 
 <script>
+import 'ress'
+
 import Header from './components/modules/Header.vue'
 
 export default {
