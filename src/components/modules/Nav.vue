@@ -1,7 +1,7 @@
 <template>
     <div>
-        <nav>
-            <router-link to="/" active-class="link--active" exact>Home</router-link>
+        <nav class="nav">
+            <router-link to="/" active-class="link--active" exact class="nav__home">Home</router-link>
             <transition name="fade" mode="out-in">
                 <router-link to="/about" active-class="link--active" exact>About</router-link>
             </transition>
@@ -18,6 +18,13 @@
 </script>
 
 <style lang="scss">
+    .nav{
+        margin-right: 10px;
+
+        &__home{
+            font-size: 30px;
+        }
+    }
     .fade-enter,
     .fade-leave-to {
         opacity: 0;
