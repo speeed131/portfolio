@@ -1,16 +1,14 @@
 <template>
-    <div>
-        <nav class="nav">
-            <router-link to="/" active-class="link--active" exact class="nav__home">Home</router-link>
-            <transition name="fade" mode="out-in">
-                <router-link to="/about" active-class="link--active" exact>About</router-link>
-            </transition>
-           
-            <router-link to="/skills">Skills</router-link>
-            <router-link to="/works">Works</router-link>
-            <router-link to="/contact">Contact</router-link>
-        </nav>
-    </div>
+    <nav class="nav">
+        <router-link to="/" active-class="link--active" exact class="nav__home">Home</router-link>
+        <transition name="fade" mode="out-in">
+            <router-link to="/about" active-class="link--active" exact>About</router-link>
+        </transition>
+        
+        <router-link to="/skills">Skills</router-link>
+        <router-link to="/works">Works</router-link>
+        <router-link to="/contact">Contact</router-link>
+    </nav>
 </template>
 
 <script>
