@@ -17,7 +17,7 @@
 
 </script>
 
-<style scoped>
+<style lang="scss">
     .fade-enter,
     .fade-leave-to {
         opacity: 0;
@@ -31,3 +31,4 @@
         font-size:20px;
     }
 </style>
+
