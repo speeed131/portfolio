@@ -44,7 +44,7 @@ export default {
     display: grid;
     grid-template:
     "header" auto
-    "main"   1fr
+    "main"   auto
     "footer" 300px
     ;
 
