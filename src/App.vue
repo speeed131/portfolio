@@ -44,13 +44,13 @@ export default {
     display: grid;
     grid-template:
     "header" auto
-    "main"   600px
-    "footer" 300px
+    "main"   100vh
+    "footer" auto
     ;
   }
   .header {
     grid-area: header;
-    background-color: rgba(254, 215, 215, 1);
+    background-color: black;
   }
   .main {
     grid-area: main;

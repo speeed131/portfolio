@@ -3,8 +3,8 @@
         <div class="main-text">
             <vue-typer :text="message"></vue-typer>
         </div>
-        <vue-particles color="#dedede"></vue-particles>
 
+        <vue-particles color="#dedede" class="main-particles"></vue-particles>
 
     </div>
 </template>
@@ -27,7 +27,7 @@ export default {
         background-image: url('../../assets/pexels-alex-andrews-821644.jpg');
         background-size: cover;
         object-fit: cover;
-        
+        height: 100%;
     }
 
     .main-text {
@@ -37,6 +37,9 @@ export default {
         top: 50%;
         left: 50%;
         transform: translateY(-50%) translateX(-50%);
+    }
+    .main-particles {
+        height: 100%;
     }
 
 </style>
