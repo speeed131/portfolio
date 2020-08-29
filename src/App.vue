@@ -31,17 +31,19 @@ export default {
 </script>
 
 
-<style lang="scss" scoped>
- //#--ここで全体のレイアウトを作る--#
+<style lang="scss">
+ //#--ここで全体のスタイルを定義--#
+@import './scss/global';
+
 
   #app {
-    font-size: 2rem;
+    font-size: 1rem;
     width: 100%;
     margin: 0 auto;
     min-height: 100vh; 
     display: grid;
     grid-template:
-    "header" 150px
+    "header" auto
     "main"   1fr
     "footer" 300px
     ;
