@@ -44,10 +44,9 @@ export default {
     display: grid;
     grid-template:
     "header" auto
-    "main"   auto
+    "main"   600px
     "footer" 300px
     ;
-
   }
   .header {
     grid-area: header;
@@ -55,7 +54,7 @@ export default {
   }
   .main {
     grid-area: main;
-    background-color: rgba(215, 215, 254, 1);
+    // background-color: rgba(215, 215, 254, 1);
   }
   .footer {
     grid-area: footer;
@@ -70,7 +69,9 @@ export default {
   //   }
   // }
   
-
+    .vue-typer .custom.char{
+        color: aliceblue;
+    }
 
 
 </style>>

@@ -1,7 +1,11 @@
 <template>
-    <div class="main-text">
-        <vue-typer :text="message">
-        </vue-typer>
+    <div class="main-block">
+        <div class="main-text">
+            <vue-typer :text="message"></vue-typer>
+        </div>
+        <vue-particles color="#dedede"></vue-particles>
+
+
     </div>
 </template>
 
@@ -9,7 +13,7 @@
 export default {
     data() {
         return {
-            message: "         Hello!\n       I'm Daiki.\nThank you for visiting"
+            message: "         Hello!\n       I'm Daiki Hirose.\nThank you for visiting"
         }
     }
 }
@@ -17,13 +21,22 @@ export default {
 
 
 
-
 <style lang="scss" scoped>
-    .main-text{
-        height: inherit;
-        font-size: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .main-block {
+        position: relative;
+        background-image: url('../../assets/pexels-alex-andrews-821644.jpg');
+        background-size: cover;
+        object-fit: cover;
+        
     }
+
+    .main-text {
+        font-size: 2rem;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+
 </style>
