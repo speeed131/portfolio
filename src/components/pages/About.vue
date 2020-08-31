@@ -1,8 +1,7 @@
 <template>
     <div class="about">
-<!-- <font-awesome-icon :icon="['fab','github']"/>
 <font-awesome-icon icon="globe" class="nav-icon"/>
-<font-awesome-icon icon="user" class="nav-icon"/> -->
+<font-awesome-icon icon="user" class="nav-icon"/> 
         <h1>About</h1>
         <div class="about-name">
             <h2>Name</h2>
@@ -27,6 +26,7 @@
         </div>
         <div class="about-github">
             <h2>Github</h2>
+            <font-awesome-icon :icon="['fab','github']"/>
         </div>
         <div class="about-qiita">
             <h2>Qiita</h2>
