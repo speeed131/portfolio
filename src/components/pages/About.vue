@@ -10,7 +10,8 @@
         </div>
         <div class="about-school">
             <h2>School</h2>
-            <p>AOYAMA GAKUIN UNIVERSITY</p>
+            <p> 青山学院大学 社会情報学部
+                AOYAMA GAKUIN UNIVERSITY</p>
         </div>
         <div class="about-birthday">
             <h2>Birthday</h2>
@@ -18,7 +19,7 @@
         </div>
         <div class="about-profile">
             <h2>Profile</h2>
-            <p></p>
+            <p>神奈川県出身。</p>
         </div>
     
         <div class="about-twitter">
