@@ -11,6 +11,10 @@
                 <h2 class="skills-block-title">CSS</h2>
             </div>
             <div class="skills-block">
+                <img src="../../assets/skills/sass.svg" alt="">
+                <h2 class="skills-block-title">Sass</h2>
+            </div>
+            <div class="skills-block">
                 <img src="../../assets/skills/javascript.svg" alt="">
                 <h2 class="skills-block-title">JavaScript</h2>
             </div>
