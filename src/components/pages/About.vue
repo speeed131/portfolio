@@ -1,7 +1,7 @@
 <template>
-    <div class="about">
-<font-awesome-icon icon="globe" class="nav-icon"/>
-<font-awesome-icon icon="user" class="nav-icon"/> 
+    <div class="about block-center">
+        <font-awesome-icon icon="globe" class="nav-icon"/>
+        <font-awesome-icon icon="user" class="nav-icon"/> 
         <h1>About</h1>
         <div class="about-name">
             <h2>Name</h2>
@@ -33,3 +33,5 @@
         </div>
     </div>
 </template>
+
+
