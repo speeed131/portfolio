@@ -52,6 +52,7 @@ export default {
     grid-area: header;
     background-color: black;
   }
+  
   .main {
     grid-area: main;
     // background-color: rgba(215, 215, 254, 1);
@@ -60,6 +61,13 @@ export default {
     grid-area: footer;
     background-color: rgba(219, 254, 215, 1);
   }
+
+
+  //全体に使う共通のクラスは以下に配置する
+  .block-center {
+      margin: 0 15%;
+  }
+
   // @media screen and (max-width: 1000px) {
   //   #app {
   //     grid-template:
@@ -72,6 +80,7 @@ export default {
     .vue-typer .custom.char{
         color: aliceblue;
     }
+
 
 
 </style>>
