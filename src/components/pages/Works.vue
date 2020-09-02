@@ -25,7 +25,7 @@
                 <img src="../../assets/works/login.jpg" alt="" class="card-img">
                 <div class="card-content">
                     <h2 class="card-title">自動ログインのプログラム</h2>
-                    <p class="card-describe"></p>
+                    <p class="card-describe">PythonのライブラリSeleniumを使い作ったもの</p>
                     <p class="card-language">Language: Python</p>
                     <a href="" class="card-link"></a>
                 </div>
@@ -56,25 +56,38 @@
 <style lang="scss" scoped>
     .works {
         text-align: center;
+        
 
         &-section {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
             align-items: center;
-            // text-align: center;
         }
     }
 
 
     .card {
         width: 450px;
-        height: 700px;
+        height: 500px;
+        border: 1px solid #ccc;
+        background: #fff;
+        box-shadow: 0 3px 6px #ccc;
+        margin: 30px 0;
+
 
         &-img {
             width: 100%;
-            height: 50%;
+            height: 70%;
+            object-fit: cover;
+            filter: grayscale(100%);
+
+            &:hover {
+                filter: grayscale(0);
+            }
         }
+
+
     }
 
 </style>
