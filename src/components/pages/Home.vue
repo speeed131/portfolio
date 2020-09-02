@@ -24,7 +24,7 @@ export default {
 <style lang="scss" scoped>
     .main-block {
         position: relative;
-        background-image: url('../../assets/pexels-alex-andrews-821644.jpg');
+        background-image: url('../../assets/home/pexels-alex-andrews-821644.jpg');
         background-size: cover;
         object-fit: cover;
         height: 100%;
