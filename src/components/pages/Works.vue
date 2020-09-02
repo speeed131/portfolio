@@ -7,46 +7,74 @@
                 <div class="card-content">
                     <h2 class="card-title">This site</h2>
                     <p class="card-describe">このポートフォリオサイト</p>
-                    <p class="card-language">JavaScript(Vue.js), Sass</p>
-                    <a href="" class="card-link"></a>
+                    <p class="card-language">Language: JavaScript(Vue.js), Sass</p>
+                    <a href="" class="card-link">Github</a>
                 </div>
             </div>
             <div class="card">
-                <img src="" alt="" class="card-img">
+                <img src="../../assets/works/talx_world.png" alt="" class="card-img">
                 <div class="card-content">
                     <h2 class="card-title">Talx World</h2>
                     <p class="card-describe">言語交換をし学習する目的の掲示板</p>
-                    <p class="card-language">PHP(Laravel), MySQL</p>
-                    <a href="" class="card-link"></a>
+                    <p class="card-language">Language: PHP(Laravel), MySQL</p>
+                    <a href="" class="card-link">App</a>
+                    <a href="" class="card-link">Github</a>
                 </div>
             </div>
             <div class="card">
-                <img src="" alt="" class="card-img">
+                <img src="../../assets/works/login.jpg" alt="" class="card-img">
                 <div class="card-content">
                     <h2 class="card-title">自動ログインのプログラム</h2>
                     <p class="card-describe"></p>
-                    <p class="card-language">Python</p>
+                    <p class="card-language">Language: Python</p>
                     <a href="" class="card-link"></a>
                 </div>
             </div>
             <div class="card">
-                <img src="" alt="" class="card-img">
+                <img src="../../assets/works/trade.jpg" alt="" class="card-img">
                 <div class="card-content">
                     <h2 class="card-title">仮想通貨自動売買Bot</h2>
-                    <p class="card-describe">取引所のAPIを使用</p>
-                    <p class="card-language">Python</p>
+                    <p class="card-describe">取引所のAPIを使用して作ったもの</p>
+                    <p class="card-language">Language: Python</p>
                     <a href="" class="card-link"></a>
                 </div>
             </div>
             <div class="card">
-                <img src="" alt="" class="card-img">
+                <img src="../../assets/works/top_cocktail.png" alt="" class="card-img">
                 <div class="card-content">
                     <h2 class="card-title">Cocktail LP</h2>
                     <p class="card-describe">カクテル紹介のLP １番最初の成果物</p>
-                    <p class="card-language">HTML, CSS</p>
+                    <p class="card-language">Language: HTML, CSS</p>
                     <a href="" class="card-link"></a>
                 </div>
             </div>
         </div>
     </div>
 </template>
+
+
+<style lang="scss" scoped>
+    .works {
+        text-align: center;
+
+        &-section {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            // text-align: center;
+        }
+    }
+
+
+    .card {
+        width: 450px;
+        height: 700px;
+
+        &-img {
+            width: 100%;
+            height: 50%;
+        }
+    }
+
+</style>
