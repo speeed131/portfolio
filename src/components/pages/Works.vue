@@ -71,9 +71,11 @@
         width: 450px;
         height: 500px;
         border: 1px solid #ccc;
+        border-radius: 5px;
         background: #fff;
         box-shadow: 0 3px 6px #ccc;
         margin: 30px 0;
+
 
 
         &-img {
