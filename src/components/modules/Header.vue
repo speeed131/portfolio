@@ -6,7 +6,6 @@
             <router-link to="/about" active-class="link--active" exact>About</router-link>
             <router-link to="/skills" exact active-class="link--active">Skills</router-link>
             <router-link to="/works" exact active-class="link--active">Works</router-link>
-            <router-link to="/contact" exact active-class="link--active">Contact</router-link>
         </nav>
     </div>
 </template>
