@@ -1,5 +1,5 @@
 <template>
     <div class="block-center">
-        aaafwafwa
+        a
     </div>
 </template>
