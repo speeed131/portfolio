@@ -35,8 +35,17 @@ export default {
  //#--ここで全体のスタイルを定義--#
 @import './scss/global';
 
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap');
+
+
+
 
   #app {
+    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Noto Sans JP', sans-serif;
+    font-style: italic;
     font-size: 1rem;
     width: 100%;
     margin: 0 auto;
