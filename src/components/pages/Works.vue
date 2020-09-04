@@ -56,7 +56,6 @@
 <style lang="scss" scoped>
     .works {
         text-align: center;
-        
 
         &-section {
             display: flex;
@@ -76,8 +75,6 @@
         box-shadow: 0 3px 6px #ccc;
         margin: 30px 0;
 
-
-
         &-img {
             width: 100%;
             height: 70%;
@@ -88,8 +85,6 @@
                 filter: grayscale(0);
             }
         }
-
-
     }
 
 </style>

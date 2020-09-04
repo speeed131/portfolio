@@ -1,7 +1,7 @@
 <template>
     <div class="about block-center">
-        <font-awesome-icon icon="globe" class="nav-icon"/>
-        <font-awesome-icon icon="user" class="nav-icon"/> 
+        <!-- <font-awesome-icon icon="globe" class="nav-icon"/>
+        <font-awesome-icon icon="user" class="nav-icon"/>  -->
         <h1>About</h1>
         <div class="about-name">
             <h2>Name</h2>
@@ -34,4 +34,11 @@
     </div>
 </template>
 
+
+<style lang="scss" scoped>
+    .about {
+        
+    }
+
+</style>
 

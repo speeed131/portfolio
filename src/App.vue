@@ -43,9 +43,9 @@ export default {
     min-height: 100vh; 
     display: grid;
     grid-template:
-    "header" auto
-    "main"   100vh
-    "footer" auto
+    "header" 60px
+    "main"   auto
+    "footer" 20px
     ;
   }
   .header {
