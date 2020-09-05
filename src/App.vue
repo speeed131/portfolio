@@ -32,19 +32,20 @@ export default {
 
 
 <style lang="scss">
- //#--ここで全体のスタイルを定義--#
+//#--ここで全体のスタイルを定義--#
 @import './scss/global';
 
-//fonts
+//#--Fontのインポート--#
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap');
 
 
 
-
   #app {
+    // TODO: fontの意思決定を最後に行う。
     font-family: 'Montserrat', sans-serif;
     // font-family: 'Noto Sans JP', sans-serif;
+
     font-style: italic;
     font-size: 1rem;
     width: 100%;
@@ -57,15 +58,17 @@ export default {
     "footer" 20px
     ;
   }
+
   .header {
     grid-area: header;
     background-color: black;
   }
-  
+
   .main {
     grid-area: main;
     // background-color: rgba(215, 215, 254, 1);
   }
+
   .footer {
     grid-area: footer;
     background-color: rgba(219, 254, 215, 1);

@@ -1,45 +1,69 @@
 <template>
     <div class="main-block">
         <div class="main-text">
-            <vue-typer :text="message"></vue-typer>
+            <vue-typer
+            :text="message"
+            :repeat = '0'
+            type-delay = '120'
+            caret-animation = 'smooth'
+            ></vue-typer>
         </div>
 
-        <vue-particles color="#dedede" class="main-particles"></vue-particles>
-
+        <vue-particles
+        color="#dedede" class="main-particles"
+        :particleOpacity="0.7"
+        :particlesNumber="80"
+        shapeType="circle"
+        :particleSize="4"
+        linesColor="#ffffff"
+        :linesWidth="1"
+        :lineLinked="true"
+        :lineOpacity="0.4"
+        :linesDistance="150"
+        :moveSpeed="3"
+        :hoverEffect="true"
+        hoverMode="grab"
+        :clickEffect="true"
+        clickMode="push"
+        ></vue-particles>
     </div>
 </template>
+
 
 <script>
 export default {
     data() {
         return {
-            message: "         Hello!\n       I'm Daiki Hirose.\nThank you for visiting"
+            message: "Hello!\nI'm Daiki Hirose,\nThank you for visiting."
         }
     }
 }
 </script>
 
 
-
 <style lang="scss" scoped>
-    .main-block {
+    .main {
+
+        &-block {
         position: relative;
-        background-image: url('../../assets/home/pexels-alex-andrews-821644.jpg');
+        background-image: url('../../assets/home/space1-1.jpg');
         background-size: cover;
         object-fit: cover;
         height: 100%;
-    }
+        }
 
-    .main-text {
-        font-size: 2rem;
-        color: white;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateY(-50%) translateX(-50%);
-    }
-    .main-particles {
-        height: 100%;
-    }
+        &-text {
+            font-size: 3.6rem;
+            color: #ffffff;
+            position: absolute;
+            text-align: center;
+            top: 30%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+        }
 
+        &-particles {
+            height: 100%;
+        }
+    }
 </style>
