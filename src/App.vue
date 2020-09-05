@@ -16,11 +16,10 @@
 <script>
 //reset css
 import 'ress'
-//global css
 
+//component
 import Header  from './components/modules/Header.vue'
 import Footer  from './components/modules/Footer.vue'
-
 
 export default {
   components: {
@@ -58,12 +57,17 @@ export default {
     "header" 60px
     "main"   auto
     "footer" 20px
-    ;
+    /100%;
   }
 
   .header {
     grid-area: header;
-    background-color: black;
+    // background-color: #333333;
+    background-color: #1a1a1a;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
   }
 
   .main {
@@ -73,7 +77,7 @@ export default {
 
   .footer {
     grid-area: footer;
-    background-color: rgba(219, 254, 215, 1);
+    background-color: #1a1a1a;
   }
 
 
@@ -94,9 +98,6 @@ export default {
     .vue-typer .custom.char{
         color: aliceblue;
     }
-
-
-
 </style>>
 
 

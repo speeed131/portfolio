@@ -21,7 +21,6 @@
 <style lang="scss" scoped>
     .footer {
         text-align: center;
-        background-color: black;
 
         &-text {
         padding: 10px;

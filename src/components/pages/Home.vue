@@ -50,6 +50,7 @@ export default {
         background-size: cover;
         object-fit: cover;
         height: 100%;
+
         }
 
         &-text {
@@ -60,10 +61,12 @@ export default {
             top: 30%;
             left: 50%;
             transform: translateY(-50%) translateX(-50%);
+
         }
 
         &-particles {
             height: 100%;
+
         }
     }
 </style>
