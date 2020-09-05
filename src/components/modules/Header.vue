@@ -40,7 +40,7 @@
         justify-content: space-between;
 
         a {
-            color: white;
+            color: #ffffff;
             text-decoration: none;
 
         }

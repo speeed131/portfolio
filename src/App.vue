@@ -46,7 +46,8 @@ export default {
     font-family: 'Montserrat', sans-serif;
     // font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Raleway', sans-serif;
-
+    background-color: #f5f5f5;
+    color: #000000;
     font-style: italic;
     font-size: 1rem;
     width: 100%;

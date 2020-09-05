@@ -51,6 +51,7 @@
     .skills {
         &-title {
             text-align: center;
+
         }
 
         &-section {
@@ -59,6 +60,7 @@
             flex-wrap: wrap;
             align-items: center;
             text-align: center;
+
         }
 
         &-block {
@@ -66,6 +68,7 @@
 
             &-title{
                 padding-top: 15px;
+
             }
         }
     }
@@ -73,5 +76,6 @@
     img {
         width: 150px;
         height: 150px;
+
     }
 </style>
