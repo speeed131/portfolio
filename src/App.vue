@@ -38,6 +38,7 @@ export default {
 //#--Fontのインポート--#
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 
 
@@ -45,6 +46,7 @@ export default {
     // TODO: fontの意思決定を最後に行う。
     font-family: 'Montserrat', sans-serif;
     // font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Raleway', sans-serif;
 
     font-style: italic;
     font-size: 1rem;
