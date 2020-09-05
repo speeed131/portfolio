@@ -1,11 +1,25 @@
 <template>
     <div class="header-inner">
-        <h1 class="header-title">Daiki's Profile</h1>
+        <h1 class="header-title">
+            <a href="/">
+                Daiki's Profile
+            </a>
+        </h1>
         <nav class="header-nav">
-            <router-link to="/" active-class="link--active" exact>Home</router-link>
-            <router-link to="/about" active-class="link--active" exact>About</router-link>
-            <router-link to="/skills" exact active-class="link--active">Skills</router-link>
-            <router-link to="/works" exact active-class="link--active">Works</router-link>
+            <ul>
+                <li>
+                    <router-link to="/" active-class="link--active" exact>Home</router-link>
+                </li>
+                <li>
+                    <router-link to="/about" active-class="link--active" exact>About</router-link>
+                </li>
+                <li>
+                    <router-link to="/skills" exact active-class="link--active">Skills</router-link>
+                </li>
+                <li>
+                    <router-link to="/works" exact active-class="link--active">Works</router-link>
+                </li>
+            </ul>
         </nav>
     </div>
 </template>
@@ -18,29 +32,45 @@
 
 <style lang="scss" scoped>
     .header-inner{
+        width: 100%;
+        height: 100%;
         display: flex;
-        justify-content: space-between;
+        padding: 0 5% 0;
         align-items: center;
-        color: white;
+        justify-content: space-between;
+
+        a {
+            color: white;
+            text-decoration: none;
+
+        }
     }
 
     .header-title {
-        width: 20%;
+        // width: 20%;
+
     }
 
     .header-nav {
-        width: 20%;
-        justify-content: space-between;
-        display: inline-flex;
-        align-items: center;
-        flex-wrap: wrap;
-        > a {
-            
+        
+
+        > ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+
+
+            > li {
+                font-size: 3rem;
+                margin: 0 15px 0;
+            }
         }
 
     }
+
     .link--active {
-        font-size: 2.5rem;
+        font-size: 3.6rem;
+
     }
 
 </style>
