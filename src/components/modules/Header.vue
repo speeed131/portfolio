@@ -31,41 +31,39 @@
 </script>
 
 <style lang="scss" scoped>
-    .header-inner{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        padding: 0 5% 0;
-        align-items: center;
-        justify-content: space-between;
 
-        a {
-            color: #ffffff;
-            text-decoration: none;
+    .header {
 
-        }
-    }
-
-    .header-title {
-        // width: 20%;
-
-    }
-
-    .header-nav {
-        
-
-        > ul {
+        &-inner{
+            width: 100%;
+            height: 100%;
             display: flex;
-            list-style: none;
+            padding: 0 5% 0;
             align-items: center;
+            justify-content: space-between;
 
+            a {
+                color: #ffffff;
+                text-decoration: none;
 
-            > li {
-                font-size: 3rem;
-                margin: 0 15px 0;
             }
         }
 
+        &-nav {
+
+            > ul {
+                display: flex;
+                list-style: none;
+                align-items: center;
+
+
+                > li {
+                    font-size: 3rem;
+                    margin: 0 15px 0;
+                }
+            }
+
+        }
     }
 
     .link--active {
