@@ -21,20 +21,25 @@
                 </div>
             </div>
             <div class="about-detail-profile">
-                    <h2>Profile</h2>
+                <div class="about-detail-profileText">
+                    <h2 class="about-detail-profileTitle">Profile</h2>
                     <p>現在大学３年生です。エンジニアとして日々勉強し、活動をしております。
                     <p>去年は１年間休学しており、ベトナムとフィリピンに長期間滞在しておりました。</p>
-                    <p>多趣味だとは思うのですが、最近の休日はほとんどカフェにいます。</p>
-                <div class="about-icon">
-                    <a href="https://twitter.com/Daiki72730520" class="icon">
-                        <img src="../../assets/about/twitter.png" alt="" class="icon-img">
-                    </a>
-                    <a href="https://github.com/speeed131" class="icon">
-                        <img src="../../assets/about/github.png" alt="" class="icon-img">
-                    </a>
-                    <a href="https://qiita.com/sd131" class="icon">
-                        <img src="../../assets/about/qiita.png" alt="" class="icon-img">
-                    </a>
+                    <p>カフェで作業することが多めです。</p>
+                </div>
+                <div class="about-link">
+                    <h2 class="about-linkTitle">Link</h2>
+                    <div class="about-linkIcon">
+                        <a href="https://twitter.com/Daiki72730520" class="icon">
+                            <img src="../../assets/about/twitter.png" alt="" class="icon-img">
+                        </a>
+                        <a href="https://github.com/speeed131" class="icon">
+                            <img src="../../assets/about/github.png" alt="" class="icon-img">
+                        </a>
+                        <a href="https://qiita.com/sd131" class="icon">
+                            <img src="../../assets/about/qiita.png" alt="" class="icon-img">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -47,7 +52,7 @@
 
         &-title {
             text-align: center;
-
+            margin-top: 5%;
         }
 
         &-detail {
@@ -55,6 +60,7 @@
             justify-content: space-around;
             // align-items: center;
             text-align: center;
+            margin-top: 5%;
 
             &-base {
                 flex-basis: 60%;
@@ -67,9 +73,20 @@
                 // flex-basis: 40%;
                 font-size: 1.6rem;
                 line-height: 3rem;
+                display: flex;
+                flex-direction: column;
 
+                &Title {
+                    padding-bottom: 5%;
+                }
+
+                &Text {
+                    flex-basis: 70%;
+                }
             }
+
         }
+
 
         &-img {
             width: 60%;
@@ -77,11 +94,17 @@
             object-fit: cover;
 
             }
+        &-link {
 
-        &-icon {
-            display: flex;
-            justify-content: center;
+            &Title {
+                margin-bottom: 5%;
+            }
 
+            &Icon {
+                display: flex;
+                justify-content: center;
+    
+            }
         }
 
     }
@@ -101,6 +124,7 @@
     .icon-img {
         width: 100%;
         height: 100%;
+
 
     }
 
