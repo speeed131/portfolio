@@ -1,6 +1,6 @@
 <template>
     <div class="about block-center">
-        <h1 class="about-title">About</h1>
+        <h1 class="about-title top-margin">About</h1>
         <div class="about-detail">
             <div class="about-detail-base">
                 <img src="../../assets/about/Daiki.jpg" alt="" class="about-img">
@@ -23,20 +23,22 @@
             <div class="about-detail-profile">
                 <div class="about-detail-profileText">
                     <h2 class="about-detail-profileTitle">Profile</h2>
-                    <p>現在大学３年生です。エンジニアとして日々勉強し、活動をしております。
-                    <p>去年は１年間休学しており、ベトナムとフィリピンに長期間滞在しておりました。</p>
-                    <p>カフェで作業することが多めです。</p>
+                    <p>神奈川県横浜市出身。現在大学３年生です。
+                    </p>
+                    <p>エンジニアとして日々勉強し、活動中です</p>
+                    <p>去年は１年間休学しており、ベトナムとフィリピンに長期間滞在していました。</p>
+                    <p>趣味は幅広いのですが、最近の休日はカフェで過ごしていることがほとんどです。</p>
                 </div>
                 <div class="about-link">
                     <h2 class="about-linkTitle">Link</h2>
                     <div class="about-linkIcon">
-                        <a href="https://twitter.com/Daiki72730520" class="icon">
+                        <a href="https://twitter.com/Daiki72730520" class="icon" target="_blank" rel="noopener noreferrer">
                             <img src="../../assets/about/twitter.png" alt="" class="icon-img">
                         </a>
-                        <a href="https://github.com/speeed131" class="icon">
+                        <a href="https://github.com/speeed131" class="icon" target="_blank" rel="noopener noreferrer">
                             <img src="../../assets/about/github.png" alt="" class="icon-img">
                         </a>
-                        <a href="https://qiita.com/sd131" class="icon">
+                        <a href="https://qiita.com/sd131" class="icon" target="_blank" rel="noopener noreferrer">
                             <img src="../../assets/about/qiita.png" alt="" class="icon-img">
                         </a>
                     </div>
@@ -52,7 +54,7 @@
 
         &-title {
             text-align: center;
-            margin-top: 5%;
+
         }
 
         &-detail {
@@ -82,6 +84,7 @@
 
                 &Text {
                     flex-basis: 70%;
+                    padding: 0 5% 0;
                 }
             }
 

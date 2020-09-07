@@ -1,6 +1,6 @@
 <template>
     <div class="works block-center">
-        <h1 class="works-title">Works</h1>
+        <h1 class="works-title top-margin">Works</h1>
         <div class="works-section">
             <div class="card">
                 <img src="" alt="" class="card-img">

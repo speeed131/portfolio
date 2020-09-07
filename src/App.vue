@@ -87,6 +87,10 @@ export default {
       margin: 0 15%;
   }
 
+  .top-margin {
+    margin-top: 5%;
+  }
+
   // @media screen and (max-width: 1000px) {
   //   #app {
   //     grid-template:
