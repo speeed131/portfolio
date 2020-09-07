@@ -74,6 +74,7 @@ export default {
   .main {
     grid-area: main;
     // background-color: rgba(215, 215, 254, 1);
+
   }
 
   .footer {
@@ -88,7 +89,11 @@ export default {
   }
 
   .top-margin {
-    margin-top: 5%;
+    margin-top: 3%;
+  }
+
+  .bottom-margin {
+    margin-bottom: 5%;
   }
 
   // @media screen and (max-width: 1000px) {

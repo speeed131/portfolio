@@ -1,6 +1,6 @@
 <template>
-    <div class="about block-center">
-        <h1 class="about-title top-margin">About</h1>
+    <div class="about block-center top-margin bottom-margin">
+        <h1 class="about-title">About</h1>
         <div class="about-detail">
             <div class="about-detail-base">
                 <img src="../../assets/about/Daiki.jpg" alt="" class="about-img">

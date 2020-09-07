@@ -1,6 +1,6 @@
 <template>
-    <div class="skills block-center">
-        <h1 class="skills-title top-margin">Skills</h1>
+    <div class="skills block-center top-margin bottom-margin">
+        <h1 class="skills-title">Skills</h1>
         <div class="skills-section">
             <div class="skills-block">
                 <img src="../../assets/skills/html-5.svg" alt="">
