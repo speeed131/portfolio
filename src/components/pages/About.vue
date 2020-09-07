@@ -108,7 +108,7 @@
             &Icon {
                 display: flex;
                 justify-content: center;
-    
+
             }
         }
 
