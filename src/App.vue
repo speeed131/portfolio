@@ -59,6 +59,7 @@ export default {
     "main"   auto
     "footer" 20px
     /100%;
+
   }
 
   .header {
@@ -89,7 +90,7 @@ export default {
   }
 
   .top-margin {
-    margin-top: 3%;
+    margin-top: 30px;
   }
 
   .bottom-margin {

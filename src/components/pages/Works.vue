@@ -67,7 +67,6 @@
 
 
     .card {
-        background-color: #f5f5f5;
         width: 450px;
         height: 500px;
         border: 1px solid #ccc;

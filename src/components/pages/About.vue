@@ -67,6 +67,7 @@
             &-base {
                 flex-basis: 60%;
                 line-height: 3rem;
+                
 
             }
 
@@ -77,6 +78,7 @@
                 line-height: 3rem;
                 display: flex;
                 flex-direction: column;
+                
 
                 &Title {
                     padding-bottom: 5%;
@@ -120,16 +122,18 @@
         width: 40px;
         height: 40px;
         margin: 0 5% 0;
+        
+        &-img {
+            width: 100%;
+            height: 100%;
 
-
+            &:hover{
+                transform:scale(1.2,1.2);
+                transition: 0.2s all;
+            }
+        }
     }
 
-    .icon-img {
-        width: 100%;
-        height: 100%;
-
-
-    }
 
 </style>
 
