@@ -1,35 +1,47 @@
 <template>
     <div class="about block-center">
-        <!-- <font-awesome-icon icon="globe" class="nav-icon"/>
-        <font-awesome-icon icon="user" class="nav-icon"/>  -->
-        <h1>About</h1>
-        <div class="about-name">
-            <h2>Name</h2>
-            <p>廣瀬 大輝 (Daiki Hirose)</p>
-        </div>
-        <div class="about-school">
-            <h2>School</h2>
-            <p> 青山学院大学 社会情報学部
-                AOYAMA GAKUIN UNIVERSITY</p>
-        </div>
-        <div class="about-birthday">
-            <h2>Birthday</h2>
-            <p>1997-5-30</p>
-        </div>
-        <div class="about-profile">
-            <h2>Profile</h2>
-            <p>神奈川県出身。</p>
-        </div>
-    
-        <div class="about-twitter">
-            <h2>Twitter</h2>
-        </div>
-        <div class="about-github">
-            <h2>Github</h2>
-            <font-awesome-icon :icon="['fab','github']"/>
-        </div>
-        <div class="about-qiita">
-            <h2>Qiita</h2>
+        <h1 class="about-title">About</h1>
+        <div class="about-detail">
+            <div class="about-detail-base">
+                <img src="../../assets/about/Daiki.jpg" alt="" class="about-img">
+                <div class="about-name">
+                    <h2 class="text-center">Name</h2>
+                    <h3>Daiki Hirose</h3>
+                    <p></p>
+               
+                </div>
+                <div class="about-school">
+                    <h2 class="text-center">School </h2>
+                    <h3>AOYAMA GAKUIN UNIVERSITY SSI</h3>
+                    <p></p>
+                </div>
+                <div class="about-birthday">
+                    <h2 class="text-center">Birthday</h2>
+                    <h3>1997-5-30</h3>
+                </div>
+            </div>
+            <div class="about-detail-profile">
+                <div class="about-detail-profileText">
+                    <h2 class="about-detail-profileTitle">Profile</h2>
+                    <p>現在大学３年生です。エンジニアとして日々勉強し、活動をしております。
+                    <p>去年は１年間休学しており、ベトナムとフィリピンに長期間滞在しておりました。</p>
+                    <p>カフェで作業することが多めです。</p>
+                </div>
+                <div class="about-link">
+                    <h2 class="about-linkTitle">Link</h2>
+                    <div class="about-linkIcon">
+                        <a href="https://twitter.com/Daiki72730520" class="icon">
+                            <img src="../../assets/about/twitter.png" alt="" class="icon-img">
+                        </a>
+                        <a href="https://github.com/speeed131" class="icon">
+                            <img src="../../assets/about/github.png" alt="" class="icon-img">
+                        </a>
+                        <a href="https://qiita.com/sd131" class="icon">
+                            <img src="../../assets/about/qiita.png" alt="" class="icon-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -37,7 +49,83 @@
 
 <style lang="scss" scoped>
     .about {
-        
+
+        &-title {
+            text-align: center;
+            margin-top: 5%;
+        }
+
+        &-detail {
+            display: flex;
+            justify-content: space-around;
+            // align-items: center;
+            text-align: center;
+            margin-top: 5%;
+
+            &-base {
+                flex-basis: 60%;
+                line-height: 3rem;
+
+            }
+
+            &-profile {
+                // letter-spacing: 0.1rem;
+                // flex-basis: 40%;
+                font-size: 1.6rem;
+                line-height: 3rem;
+                display: flex;
+                flex-direction: column;
+
+                &Title {
+                    padding-bottom: 5%;
+                }
+
+                &Text {
+                    flex-basis: 70%;
+                }
+            }
+
+        }
+
+
+        &-img {
+            width: 60%;
+            height: auto;
+            object-fit: cover;
+
+            }
+        &-link {
+
+            &Title {
+                margin-bottom: 5%;
+            }
+
+            &Icon {
+                display: flex;
+                justify-content: center;
+    
+            }
+        }
+
+    }
+    .text-center {
+        text-align: center;
+
+    }
+
+    .icon {
+        width: 40px;
+        height: 40px;
+        margin: 0 5% 0;
+
+
+    }
+
+    .icon-img {
+        width: 100%;
+        height: 100%;
+
+
     }
 
 </style>
