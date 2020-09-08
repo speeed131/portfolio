@@ -97,14 +97,15 @@ export default {
     margin-bottom: 5%;
   }
 
-  // @media screen and (max-width: 1000px) {
-  //   #app {
-  //     grid-template:
-  //     "header" 150px
-  //     "main  " 1fr
-  //     "footer" 300px;
-  //   }
-  // }
+  @media screen and (max-width: 1000px) {
+    #app {
+      grid-template:
+      "header" 50px
+      "main  " auto
+      "footer" 10px
+      /100%;
+    }
+  }
   
     .vue-typer .custom.char{
         color: aliceblue;

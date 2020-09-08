@@ -5,7 +5,9 @@
                 Daiki's Profile
             </a>
         </h1>
-        <Nav></Nav>
+        <div class="headerPC-nav">
+            <Nav></Nav>
+        </div>
     </div>
 </template>
 
@@ -38,6 +40,14 @@ export default {
                 color: #ffffff;
                 text-decoration: none;
             }
+        }
+    }
+    @media screen and (max-width: 1000px) {
+        .header-title {
+            margin: auto;
+        }
+        .headerPC-nav {
+            display: none;
         }
     }
 
