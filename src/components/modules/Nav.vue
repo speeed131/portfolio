@@ -49,7 +49,7 @@
     }
 
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 768px) {
         .nav {
             background-color: #1a1a1a;
 

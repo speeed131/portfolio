@@ -131,7 +131,7 @@
         }
     }
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 768px) {
         .about {
 
             &-img {

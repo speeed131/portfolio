@@ -34,7 +34,7 @@ export default {
     }
 
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 768px) {
         .footer {
             &-text {
                 padding: 5px;

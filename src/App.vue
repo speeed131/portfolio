@@ -97,7 +97,7 @@ export default {
     margin-bottom: 5%;
   }
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 768px) {
     #app {
       grid-template:
       "header" 50px
