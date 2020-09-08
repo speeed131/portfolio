@@ -48,4 +48,19 @@
 
     }
 
+
+    @media screen and (max-width: 1000px) {
+        .nav {
+            background-color: #1a1a1a;
+
+            >ul {
+                display: flex;
+                
+                > li {
+                    flex: 1;
+                }
+            }
+        }
+    }
+
 </style>
