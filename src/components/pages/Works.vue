@@ -124,4 +124,15 @@
         }
     }
 
+    @media screen and (max-width: 1000px) {
+        .card {
+            height: 400px;
+
+            &-img {
+                height: 60%;
+            }
+        }
+    }
+
+
 </style>
