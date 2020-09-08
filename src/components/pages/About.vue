@@ -60,7 +60,6 @@
         &-detail {
             display: flex;
             justify-content: space-around;
-            // align-items: center;
             text-align: center;
             margin-top: 5%;
 
@@ -72,8 +71,6 @@
             }
 
             &-profile {
-                // letter-spacing: 0.1rem;
-                // flex-basis: 40%;
                 font-size: 1.6rem;
                 line-height: 3rem;
                 display: flex;
@@ -130,6 +127,31 @@
             &:hover{
                 transform:scale(1.2,1.2);
                 transition: 0.2s all;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .about {
+
+            &-img {
+                width: 100%;
+            }
+
+            &-detail {
+                flex-wrap: wrap;
+
+                &-profile {
+
+                    &Title {
+                        padding-top: 5%;
+                        padding-bottom: 0;
+                    }
+                }
+            }
+
+            &-link {
+                margin-top: 5%;
             }
         }
     }
