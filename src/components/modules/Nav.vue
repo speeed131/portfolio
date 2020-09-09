@@ -26,16 +26,19 @@
 
 <style lang="scss">
     .nav {
+        background-color: #1a1a1a;
 
         > ul {
             display: flex;
             list-style: none;
             align-items: center;
+            
 
             > li {
                 font-size: 3rem;
                 margin: 0 15px 0;
-                
+                flex: 1;
+
                 > a {
                     color: #ffffff;
                 }
@@ -47,20 +50,5 @@
         font-size: 3.6rem;
 
     }
-
-
-    @media screen and (max-width: 768px) {
-        .nav {
-            background-color: #1a1a1a;
-
-            >ul {
-                display: flex;
-                
-                > li {
-                    flex: 1;
-                }
-            }
-        }
-    }
-
+    
 </style>
