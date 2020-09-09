@@ -9,7 +9,7 @@
                     <p class="card-describe">このポートフォリオサイト</p>
                     <p class="card-language">Language: JavaScript(Vue.js), Sass</p>
                     <div class="card-content-link">
-                        <a href="https://github.com/speeed131/portfolio/tree/master" class="link-github">Github</a>
+                        <a href="https://github.com/speeed131/portfolio/tree/master" target="_blank" rel="noopener noreferrer" class="link-github">Github</a>
                     </div>
                 </div>
             </div>
@@ -20,8 +20,8 @@
                     <p class="card-describe">言語交換をし学習する目的の掲示板</p>
                     <p class="card-language">Language: PHP(Laravel), MySQL</p>
                     <div class="card-content-link">
-                        <a href="http://talxworld.herokuapp.com/register" class="link-app">App</a>
-                        <a href="https://github.com/speeed131/Talx_world" class="link-github">Github</a>
+                        <a href="http://talxworld.herokuapp.com/register" target="_blank" rel="noopener noreferrer" class="link-app">App</a>
+                        <a href="https://github.com/speeed131/Talx_world" target="_blank" rel="noopener noreferrer" class="link-github">Github</a>
                     </div>
                 </div>
             </div>
