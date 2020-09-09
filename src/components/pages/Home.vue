@@ -54,6 +54,7 @@ export default {
         }
 
         &-text {
+            width: 100%;
             font-size: 3.6rem;
             color: #ffffff;
             position: absolute;
