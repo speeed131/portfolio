@@ -38,13 +38,17 @@ export default {
         .footer {
             &-text {
                 padding: 5px;
-                margin-bottom: 30px;
+                margin-bottom: calc(50px + env(safe-area-inset-bottom));
             }
             &SP-nav {
                 width: 100%;
                 display: block;
                 position: fixed;
+                padding: 10px 0;;                
                 bottom: 0;
+                margin-bottom: env(safe-area-inset-bottom);
+                background-color: #1a1a1a;
+                align-items: center;
             }
         }
     }

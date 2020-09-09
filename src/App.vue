@@ -102,7 +102,7 @@ export default {
       grid-template:
       "header" 50px
       "main  " auto
-      "footer" 10px
+      "footer" 60px
       /100%;
     }
   }
