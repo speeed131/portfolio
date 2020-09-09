@@ -6,12 +6,11 @@ import VueParticles from 'vue-particles'
 
 //以下 font-awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faUser,faBlog,faBirthdayCake,faImage } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter,faGithub,faHtml5,faCss3Alt,faJsSquare } from '@fortawesome/free-brands-svg-icons'
+import { faUser,faBlog,faBirthdayCake,faImage, faHome, faUserCircle,  faCode, faArchive} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 //fontawesome用
-library.add(faUser,faBlog,faBirthdayCake,faImage,faTwitter,faGithub,faHtml5,faCss3Alt,faJsSquare)
+library.add(faUser,faBlog,faBirthdayCake,faImage, faHome, faUserCircle, faCode, faArchive)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 
