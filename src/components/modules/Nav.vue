@@ -44,6 +44,7 @@
                 }
             }
         }
+
     }
 
     .link--active {
@@ -51,4 +52,14 @@
 
     }
     
+    @media screen and (max-width: 374px) {
+            .nav {
+                > ul {
+                    > li {
+                        margin: 0;
+                    }
+            }
+        }
+    }
+
 </style>
