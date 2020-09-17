@@ -44,7 +44,7 @@ export default {
                 width: 100%;
                 display: block;
                 position: fixed;
-                padding: 10px 0;;                
+                padding: 10px 0;                
                 bottom: 0;
                 margin-bottom: env(safe-area-inset-bottom);
                 background-color: #1a1a1a;

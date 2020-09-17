@@ -28,8 +28,9 @@
             <div class="card">
                 <img src="../../assets/works/login.jpg" alt="" class="card-img">
                 <div class="card-content">
-                    <h2 class="card-title">自動ログインのプログラム</h2>
-                    <p class="card-describe">PythonのライブラリSeleniumを使い作ったもの</p>
+                    <h2 class="card-title">Auto Login</h2>
+                    <p class="card-describe">スクレイピングで自動的にログインするプログラム。
+                        ライブラリSeleniumを使い作ったもの</p>
                     <p class="card-language">Language: Python</p>
                     <a href="" class="card-link"></a>
                 </div>
@@ -37,7 +38,7 @@
             <div class="card">
                 <img src="../../assets/works/trade.jpg" alt="" class="card-img">
                 <div class="card-content">
-                    <h2 class="card-title">仮想通貨自動売買Bot</h2>
+                    <h2 class="card-title">Automatic Trade System</h2>
                     <p class="card-describe">取引所のAPIを使用して作ったもの</p>
                     <p class="card-language">Language: Python</p>
                     <a href="" class="card-link"></a>
@@ -88,6 +89,10 @@
             &:hover {
                 filter: grayscale(0);
             }
+        }
+        
+        &-title {
+            padding-bottom: 5px;
         }
 
         &-content {
