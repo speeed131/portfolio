@@ -42,6 +42,7 @@ export default {
             }
         }
     }
+    
     @media screen and (max-width: 768px) {
         .header-title {
             margin: auto;
