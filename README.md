@@ -1,4 +1,6 @@
 # portfolio
+This is my site.
+https://portfolio-flax-beta.vercel.app/
 
 ## Project setup
 ```
