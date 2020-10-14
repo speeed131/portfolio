@@ -25,9 +25,9 @@
                     <h2 class="about-detail-profileTitle">Profile</h2>
                     <p>神奈川県横浜市出身。現在大学３年生です。
                     </p>
-                    <p>エンジニアとして日々勉強し、活動中です</p>
+                    <p>エンジニアとして日々勉強し、活動中です。</p>
                     <p>去年は１年間休学しており、ベトナムとフィリピンに長期間滞在していました。</p>
-                    <p>趣味は幅広いのですが、最近の休日はカフェで過ごしていることがほとんどです。</p>
+                    <p>趣味: プログラミング、旅行、読書、音楽鑑賞</p>
                 </div>
                 <div class="about-link">
                     <h2 class="about-linkTitle">Link</h2>
@@ -58,6 +58,8 @@
         }
 
         &-detail {
+            // font-family: 'Noto Sans JP', sans-serif;
+            font-style: normal;
             display: flex;
             justify-content: space-around;
             text-align: center;
@@ -65,14 +67,12 @@
 
             &-base {
                 flex-basis: 60%;
-                line-height: 3rem;
-                
-
+                line-height: 4rem;
             }
 
             &-profile {
-                font-size: 1.6rem;
-                line-height: 3rem;
+                font-size: 1.8rem;
+                line-height: 4rem;
                 display: flex;
                 flex-direction: column;
                 

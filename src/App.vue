@@ -43,7 +43,7 @@ export default {
 
   #app {
     // TODO: fontの意思決定を最後に行う。
-    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Montserrat', sans-serif;
     // font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Raleway', sans-serif;
     background-color: #f5f5f5;
