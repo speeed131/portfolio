@@ -4,30 +4,31 @@
         <div class="about-detail">
             <div class="about-detail-base">
                 <img src="../../assets/about/Daiki.jpg" alt="" class="about-img">
-                <div class="about-name">
-                    <h2 class="text-center">Name</h2>
-                    <h3>Daiki Hirose</h3>
-                    <p></p>
-               
-                </div>
-                <div class="about-school">
-                    <h2 class="text-center">School </h2>
-                    <h3>AOYAMA GAKUIN UNIVERSITY SSI</h3>
+                <div class="about-name padding-bottom">
+                    <h2>Name</h2>
+                    <p>Daiki Hirose</p>
                     <p></p>
                 </div>
-                <div class="about-birthday">
-                    <h2 class="text-center">Birthday</h2>
-                    <h3>1997-5-30</h3>
+                <div class="about-school padding-bottom">
+                    <h2>School </h2>
+                    <p>AOYAMA GAKUIN UNIVERSITY SSI</p>
+                </div>
+                <div class="about-birthday padding-bottom">
+                    <h2>Birthday</h2>
+                    <p>1997-5-30</p>
                 </div>
             </div>
             <div class="about-detail-profile">
-                <div class="about-detail-profileText">
+                <div class="about-detail-profileText padding-bottom">
                     <h2 class="about-detail-profileTitle">Profile</h2>
-                    <p>神奈川県横浜市出身。現在大学３年生です。
+                    <p>
+                        1997年生まれ。神奈川県出身。
                     </p>
-                    <p>エンジニアとして日々勉強し、活動中です</p>
-                    <p>去年は１年間休学しており、ベトナムとフィリピンに長期間滞在していました。</p>
-                    <p>趣味は幅広いのですが、最近の休日はカフェで過ごしています。</p>
+                    <p>
+                        経営学や経済学を学びたいと思い、文系で大学に入る。
+                        しかし、2019年2月のフィリピンへのIT留学をきっかけに、プロダクトとして成果物が作れるエンジニアに興味が湧く。休学を決意し、2019年6月ベトナムでのプログラミング合宿を通し、初学者に向けてメンター業務を行う。その後、「終活ねっと」 にて、Web開発業務に約半年間、主にフロントエンドエンジニアとして携わる。そして、直近の半年間はスタートアップの会社でフルスタックに開発業務に携わる。
+                    </p>
+                    <p>2022年大学卒業予定。</p>
                 </div>
                 <div class="about-link">
                     <h2 class="about-linkTitle">Link</h2>
@@ -51,6 +52,8 @@
 
 <style lang="scss" scoped>
     .about {
+        background-color: #FFFFFE;
+        padding: 1%;
 
         &-title {
             text-align: center;
@@ -58,32 +61,27 @@
         }
 
         &-detail {
-            display: flex;
-            justify-content: space-around;
             text-align: center;
-            margin-top: 5%;
+            margin-top: 3%;
 
             &-base {
-                flex-basis: 60%;
                 line-height: 3rem;
-                
-
             }
 
             &-profile {
                 font-size: 1.6rem;
                 line-height: 3rem;
                 display: flex;
+                width: 100%;
                 flex-direction: column;
-                
 
                 &Title {
-                    padding-bottom: 5%;
+                    padding-bottom: 1%;
                 }
 
                 &Text {
                     flex-basis: 70%;
-                    padding: 0 5% 0;
+                    padding: 0 15% 0;
                 }
             }
 
@@ -91,7 +89,7 @@
 
 
         &-img {
-            width: 60%;
+            width: 400px;
             height: auto;
             object-fit: cover;
 
@@ -99,7 +97,7 @@
         &-link {
 
             &Title {
-                margin-bottom: 5%;
+                margin-bottom: 3%;
             }
 
             &Icon {
@@ -110,9 +108,8 @@
         }
 
     }
-    .text-center {
-        text-align: center;
-
+    .padding-bottom {
+        padding-bottom: 1%;
     }
 
     .icon {
