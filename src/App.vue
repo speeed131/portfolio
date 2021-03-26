@@ -33,6 +33,9 @@ export default {
 <style lang="scss">
 //#--ここで全体のスタイルを定義--#
 @import './scss/global';
+@import './scss/foundation/variables';
+
+
 
 //#--Fontのインポート--#
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
@@ -43,12 +46,12 @@ export default {
 
   #app {
     // TODO: fontの意思決定を最後に行う。
-    // font-family: 'Montserrat', sans-serif;
-    // font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Raleway', sans-serif;
     background-color: #f5f5f5;
-    color: #000000;
-    font-style: italic;
+    color: #333333;
+    // font-style: italic;
     font-size: 1rem;
     width: 100%;
     margin: 0 auto;
@@ -69,6 +72,8 @@ export default {
     position: sticky;
     top: 0;
     z-index: 1;
+    font-family: 'Noto Sans JP', sans-serif;
+
   }
 
   .main {
